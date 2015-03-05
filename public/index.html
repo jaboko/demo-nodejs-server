@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta name="google" value="notranslate">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Demo</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+
+</head>
+<body>
+
+<div id="swfContainer"></div>
+
+<script type="text/javascript">
+
+    var flashvars = {};
+    flashvars.server = window.location.origin + "/api/";
+
+    var params = {};
+    var attributes = {};
+    attributes.wmode = "direct";
+
+    swfobject.embedSWF("main.swf", "swfContainer", 800, 600, "11.5.0", "expressInstall.swf", flashvars, params, attributes);
+
+</script>
+</body>
+</html>
