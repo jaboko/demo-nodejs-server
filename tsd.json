@@ -1,0 +1,33 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "node/node.d.ts": {
+      "commit": "49b821f06b711a86be349c4bbff4351467c024b9"
+    },
+    "express/express.d.ts": {
+      "commit": "49b821f06b711a86be349c4bbff4351467c024b9"
+    },
+    "mongodb/mongodb.d.ts": {
+      "commit": "49b821f06b711a86be349c4bbff4351467c024b9"
+    },
+    "mongoose/mongoose.d.ts": {
+      "commit": "49b821f06b711a86be349c4bbff4351467c024b9"
+    },
+    "passport/passport.d.ts": {
+      "commit": "49b821f06b711a86be349c4bbff4351467c024b9"
+    },
+    "passport-local/passport-local.d.ts": {
+      "commit": "49b821f06b711a86be349c4bbff4351467c024b9"
+    },
+    "express-validator/express-validator.d.ts": {
+      "commit": "49b821f06b711a86be349c4bbff4351467c024b9"
+    },
+    "body-parser/body-parser.d.ts": {
+      "commit": "49b821f06b711a86be349c4bbff4351467c024b9"
+    }
+  }
+}
